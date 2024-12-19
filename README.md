@@ -16,7 +16,7 @@ npm start
 ```
 
 ## Run Remote App
-- Shell app will run at http://localhost:4201
+- Remote app will run at http://localhost:4201
 ```bash
 cd ./remote-app
 npm start
