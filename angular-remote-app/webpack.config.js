@@ -30,7 +30,7 @@ module.exports = {
       name: "remoteApp",
       filename: "remoteEntry.js",
       exposes: {
-        "./CustomElement": ["./src/bootstrap.ts"],
+        "./web-component": ["./src/bootstrap.ts"],
       },
 
       shared: share({

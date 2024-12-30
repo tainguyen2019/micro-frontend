@@ -1,3 +1,21 @@
-<h1>HOST APP</h1>
+<div class="host-app-container">
+  <h1>HOST APP</h1>
+  <h3>Embeded Remote Micro App</h3>
+  <div class="app-options">
+    <div class="app-title">Choose App:</div>
+    <a
+      class="app-remote"
+      routerLink="angular-app/home"
+      routerLinkActive="active-app"
+      >Angular</a
+    >
+    <a
+      class="app-remote"
+      routerLink="react-app/home"
+      routerLinkActive="active-app"
+      >React</a
+    >
+  </div>
 
-<router-outlet></router-outlet>
+  <router-outlet></router-outlet>
+</div>

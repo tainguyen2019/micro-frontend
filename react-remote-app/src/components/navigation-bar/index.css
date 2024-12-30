@@ -1,0 +1,9 @@
+.nav-container{
+    display: flex;
+    gap: 32px;
+}
+
+.active-link{
+    font-weight: 900;
+    color: #0074ff;
+}

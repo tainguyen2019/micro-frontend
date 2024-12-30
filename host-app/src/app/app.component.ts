@@ -1,20 +1,10 @@
-import { loadRemoteModule } from '@angular-architects/module-federation';
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit {
-  constructor() {
-  }
+export class AppComponent {
 
-  async ngOnInit() {
-    // Load the remote module
-    await loadRemoteModule({
-      type: 'module',
-      remoteEntry: 'http://localhost:4201/remoteEntry.js',
-      exposedModule: './CustomElement'
-    });
-  }
 }

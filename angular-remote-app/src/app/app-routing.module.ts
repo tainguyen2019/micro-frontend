@@ -5,16 +5,16 @@ import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   {
-    path: 'home/angular-home',
+    path: 'angular-app/home',
     component: HomeComponent
   },
   {
-    path: 'home/about',
+    path: 'angular-app/about',
     component: AboutComponent
   },
   {
     path: '**',
-    redirectTo: 'home/angular-home'
+    redirectTo: 'angular-app/home'
   }
 ];
 
