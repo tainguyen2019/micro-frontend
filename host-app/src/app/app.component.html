@@ -6,15 +6,15 @@
     <a
       class="app-remote"
       routerLink="angular-app/home"
-      routerLinkActive="active-app"
-      >Angular</a
-    >
+      [class.active-app]="isSelectedRemoteApp('angular')"
+      >Angular
+    </a>
     <a
       class="app-remote"
       routerLink="react-app/home"
-      routerLinkActive="active-app"
-      >React</a
-    >
+      [class.active-app]="isSelectedRemoteApp('react')"
+      >React
+    </a>
   </div>
 
   <router-outlet></router-outlet>
