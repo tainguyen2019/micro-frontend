@@ -11,9 +11,13 @@ export class ReactAppComponent implements OnInit {
   }
 
   async ngOnInit() {
+    const isLocal: boolean = window.location.href.includes('localhost:4200');
+    const localFile: string = 'http://localhost:3000/remoteEntry.js';
+    const prodFile: string = 'https://tainguyen2019.github.io/micro-frontend/angular-app/remoteEntry.js';
+
     await loadRemoteModule({
       type: 'module',
-      remoteEntry: 'http://localhost:3000/remoteEntry.js',
+      remoteEntry: isLocal ? localFile : prodFile,
       exposedModule: './web-component'
     });
   }
