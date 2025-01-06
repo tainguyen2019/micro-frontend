@@ -17,8 +17,8 @@
         "build": {
           "builder": "ngx-build-plus:browser",
           "options": {
-            "outputPath": "build/host-app",
-            "baseHref": "/",
+            "outputPath": "build/angular-app",
+            "baseHref": "/micro-frontend/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": ["zone.js"],
