@@ -1,0 +1,17 @@
+{
+  "name": "micro-frontend",
+  "version": "1.0.0",
+  "description": "demo micro frontend with module federation approach",
+  "main": "index.js",
+  "scripts": {
+    "build-all": "npm run build-host-app && npm run build-react-app && npm run build-angular-app",
+    "build-host-app": "cd host-app && npm run build",
+    "build-react-app": "cd react-remote-app && npm run build",
+    "build-angular-app": "cd angular-remote-app && npm run build",
+    "deploy": "npm run build-all && git add . && git commit -m \"deploy: micro frontend page\" && git push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

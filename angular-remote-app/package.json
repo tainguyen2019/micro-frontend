@@ -1,5 +1,6 @@
 {
   "name": "remote-app",
+  "homepage": "https://tainguyen2019.github.io/micro-frontend/angular-app",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
