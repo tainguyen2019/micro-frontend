@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-react-app',
   templateUrl: './react-app.component.html',
-  styleUrls: ['./react-app.component.scss']
+  styleUrls: ['./react-app.component.scss'],
 })
 export class ReactAppComponent implements OnInit {
   constructor() {

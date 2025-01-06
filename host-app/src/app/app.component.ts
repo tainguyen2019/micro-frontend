@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   isSelectedRemoteApp(app: string) {
-    return window.location.href.includes(`${location.host}/${app}`)
+    return window.location.href.includes(`${location.host}/micro-frontend/host-app/${app}`)
   }
 }
