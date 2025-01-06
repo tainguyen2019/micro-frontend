@@ -13,6 +13,7 @@ function App() {
   return (
     <div className="app-container">
       <BrowserRouter>
+        <h3>React Mircro App</h3>
         <NavigationBar />
         <Routes>
           <Route path={`${basename}/*`}>
