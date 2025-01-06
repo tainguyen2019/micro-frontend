@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkreact_2024=self.webpackChunkreact_2024||[]).push([[773],{773:(e,t,s)=>{s.r(t);var c=s(391),n=s(808),o=s(579);class r extends HTMLElement{constructor(){super(),this.root=null}connectedCallback(){this.root=c.createRoot(this),this.root.render((0,o.jsx)(n.A,{}))}disconnectedCallback(){var e;null===(e=this.root)||void 0===e||e.unmount()}}const l="react-app-element";customElements.get(l)||customElements.define(l,r)}}]);
-//# sourceMappingURL=773.0f772cfc.chunk.js.map
