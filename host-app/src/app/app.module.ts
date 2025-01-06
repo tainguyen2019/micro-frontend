@@ -18,7 +18,7 @@ import { ReactAppComponent } from './react-app/react-app.component';
     AppRoutingModule
   ],
   providers: [
-    { provide: APP_BASE_HREF, useValue: '/micro-frontend/host-app' }
+    { provide: APP_BASE_HREF, useValue: '/micro-frontend/host-app/' }
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent]
