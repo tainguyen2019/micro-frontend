@@ -1,1 +1,1 @@
-export const BASENAME = '/react-app';
+export const BASENAME = '/micro-frontend/react-app';
